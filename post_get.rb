@@ -8,5 +8,5 @@ module Sinatra
     end
    end
 # now we just need to register it via Sinatra::Base
-#register PostGet
+register PostGet
 end
