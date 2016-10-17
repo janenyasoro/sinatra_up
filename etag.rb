@@ -7,6 +7,6 @@ before do
 end
 
 get '/etag' do
- etag @guid
+ etag @guid, :weak
  "This resource has an ETag value of #{@guid}."
 end
